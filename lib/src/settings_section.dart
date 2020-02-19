@@ -19,12 +19,9 @@ class SettingsSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (Platform.isIOS)
+   
       return iosSection();
-    else if (Platform.isAndroid)
-      return androidSection(context);
-    else
-      return androidSection(context);
+    
   }
 
   Widget iosSection() {
