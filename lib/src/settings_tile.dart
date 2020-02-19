@@ -39,11 +39,9 @@ class SettingsTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (Platform.isIOS) {
-      return iosTile();
-    } else {
+   
       return androidTile();
-    }
+  
   }
 
   Widget iosTile() {
