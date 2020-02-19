@@ -40,7 +40,7 @@ class SettingsTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
    
-      return androidTile();
+      return iosTile();
   
   }
 
